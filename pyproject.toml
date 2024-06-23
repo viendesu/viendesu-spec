@@ -1,0 +1,14 @@
+[project]
+name = "viendesu-spec"
+version = "0.1"
+
+dependencies = [
+  "mashumaro @ git+https://github.com/nerodono/mashumaro@string-jsonschema-format",
+  "openapify"
+]
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+
